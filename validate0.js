@@ -2,7 +2,7 @@
    
    document.getElementById('formulaire').addEventListener("submit", function(event) {
     event.preventDefault(); 
-
+    
     var nom = document.getElementById("nom").value.trim();
     var email = document.getElementById("email").value.trim();
     var password = document.getElementById("password").value.trim();
